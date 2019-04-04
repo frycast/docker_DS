@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-LABEL MAINTAINER="Daniel Fryer <d.fryer@latrobe.edu.au>"
+MAINTAINER Daniel Fryer <d.fryer@latrobe.edu.au>
 
 # Linking of locale.h as xlocale.h
 # This is done to ensure successfull install of python numpy package
